@@ -1,0 +1,132 @@
+
+/*מיקום תפריט ראשי*/
+nav {
+position: absolute;
+right: 13px;
+ top: 2px;
+}
+
+/* העלמה של תבליטים ומיקום התפריט*/
+nav ul {
+position: relative;
+right: 120px;
+margin: 0;
+padding: 0;
+list-style: none; 
+}
+
+/*המיקום של הטקסט של התפריט הראשי  קובייה*/
+.cotert {
+ display: inline-block;
+background-color: #FFFFFF;
+width: 121px;
+height: 23px;
+padding: 7px;
+right: -8px;
+font-size:20px;
+}
+
+.dropdown {
+height: 100%;
+background-color: unset;
+}
+
+/*המרחק בין כל קובייה*/
+nav ul li {
+display: inline-block;
+float: right;
+padding: 5px;
+margin: 7px;
+position: relative;
+background-color: #FFFFFF;
+border-radius: 10px;
+width: 117px;
+height: 18px;
+right: 6px;
+z-index: 2;
+}
+
+/*סימון קו תחתון- תפריט ראשי - בעמוד נוכחי
+*/#imhere > a {
+text-decoration: underline;
+}
+
+/*העיצוב של כל טקסט בקובייה -תפריט ראשי*/
+nav ul li a {
+display: block;
+text-align: center;
+text-decoration: none;
+border-radius: 10px;
+top: 22px;
+right: -15px;
+color: #3D5982;
+z-index: 3;
+}
+
+ /*חץ תפריט ראשי*/
+nav ul li a span > img{
+position:relative;
+top:-4px;
+right:5px;        
+}
+
+/*העיצוב של הלינק*/
+ nav ul li a:link {
+ color: #3D5982;
+position: relative;
+z-index: 5;
+}
+
+
+/*  מרווח בין קוביות תת תפריט*/
+nav ul li ul li {
+margin: -1px;
+border:1px solid lightgrey;
+width:120px; 
+border-radius: 2px;
+}
+
+/*מיקום קוביות תת תפריט*/
+nav ul li ul {
+display: none;
+right: -16px;
+padding: 15px 5px 5px;
+
+}
+
+/*מעבר עכבר על התת תפריט*/
+nav > ul > li:hover ul, nav> ul > li:focus ul {
+display: block;
+color: #3D5982;
+text-decoration: underline; 
+}
+
+/*רקע כחול לתת תפריט במעבר עכבר*/
+nav > ul > li ul :hover{
+background-color: rgb(204, 204, 204);
+}
+
+/*העיצוב של המעבר עכבר*/
+nav ul li a:hover {
+background-color: rgb(204, 204, 204);
+position: relative;
+z-index: 3;
+text-decoration: underline; 
+font-weight: bold;
+}
+
+/*טקסט קוביות של תת תפריט*/
+nav ul li > ul li > a {
+right: 5px;
+padding-right: -10px;
+top: 2px;
+z-index: 3;
+text-align: right;
+font-size:18px;        
+}
+/*סימון - בלתי אפשרי*/
+.notActive {
+cursor: not-allowed;
+ color: #3D5982;
+}
+

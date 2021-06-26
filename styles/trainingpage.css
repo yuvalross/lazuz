@@ -1,0 +1,955 @@
+﻿/*אייקון כניסה - ספציפית לעמוד אימונים*/
+#img1 {
+position: relative;
+float: right;
+width: 42px;
+height: 35px;
+margin-left: 25px;
+margin-right: 82px;
+right: 205px;
+top: -266px;
+z-index: 3;
+}
+
+/*אייקון הרשמה - ספציפית לעמוד אימונים*/
+#img2 {
+position: relative;
+float: right;
+width: 40px;
+height: 67px;
+margin-left: 25px;
+margin-right: 82px;
+right: 106px;
+top: -275px;
+z-index: 3;
+}
+
+/*טקסט כניסה - ספציפית לעמוד אימונים*/
+#words1 {
+font-family: Calibri;
+color: #ffffff;
+font-size: 18px;
+position: relative;
+float: right;
+width: 40px;
+height: 30px;
+right: 372px;
+top: -266px;
+z-index: 5;
+}
+
+/*טקסט הרשמה - ספציפית לעמוד אימונים*/
+#words2 {
+font-family: Calibri;
+color: #ffffff;
+font-size: 18px;
+position: relative;
+float: right;
+width: 40px;
+height: 30px;
+right: 275px;
+top: -266px;
+z-index: 3;
+}
+
+
+/*טקסט פירורי לחם - ספציפית לעמוד אימונים*/
+#nav2 > ol li {
+margin-top: 10px;
+position: relative;
+padding: 3px;
+list-style: none;
+display: inline-block;
+margin-right: -9px;
+color: white;
+float: right;
+right: -874px;
+}
+
+
+/*כותרת ראשית - עמוד אימונים*/
+h1 {
+font-family: Calibri;
+font-size: 22px;
+font-weight: bold;
+color: #2e63a9;
+position: relative;
+right: 207px;
+top: -494px;
+z-index: 3;
+}
+
+/* תקציר -עמוד אימונים*/
+p {
+font-family: Calibri;
+font-size: 16px;
+color: black;
+position: relative;
+top: -455px;
+right: 207px;
+}
+
+/*כותרת- אירובי  */
+#h2one {
+color: #F74B4B;
+font-family: Calibri;
+font-size: 20px;
+position: relative;
+top: -403px;
+right: 207px;
+margin-bottom: 20px;
+}
+
+/*כותרת- אנארובי*/
+h2 {
+color: #F74B4B;
+font-family: Calibri;
+font-size: 20px;
+position: relative;
+top: -102px;
+right: -280px;
+margin-bottom: 20px;
+z-index: 2;
+}
+
+/* של הכרטיסיותclass גובה ה*/
+div .grayshapevideo {
+height: 5px;
+}
+
+/*מלבן אפור - HIIT*/
+.grayshapevideo #hiit {
+position: relative;
+background-color: #e7e5e7;
+border-radius: 10%;
+width: 171px;
+height: 260px;
+top: -374px;
+right: -72px;
+display: inline-block;
+z-index: 1;
+}
+
+/*מלבן אפור - מדרגה*/
+.grayshapevideo #step {
+position: relative;
+background-color: #e7e5e7;
+border-radius: 10%;
+width: 171px;
+height: 260px;
+top: -379px;
+right: 16px;
+display: inline-block;
+z-index: 1;
+}
+
+/*מלבן אפור - אריובי דאנס*/
+.grayshapevideo #dance {
+position: relative;
+background-color: #e7e5e7;
+border-radius: 10%;
+width: 171px;
+height: 260px;
+top: -384px;
+right: 106px;
+display: inline-block;
+z-index: 1;
+}
+
+/*מלבן אפור - קייקבוקס*/
+.grayshapevideo #kikboks {
+position: relative;
+background-color: #e7e5e7;
+border-radius: 10%;
+width: 171px;
+height: 260px;
+top: -389px;
+right: 196px;
+display: inline-block;
+z-index: 1;
+}
+
+/*מלבן אפור - יוגה*/
+.grayshapevideo #yoga {
+position: relative;
+background-color: #e7e5e7;
+border-radius: 10%;
+width: 171px;
+height: 260px;
+right: -70px;
+top: -64px;
+display: inline-block;
+z-index: 1;
+}
+
+/*מלבן אפור - בטן קוביות*/
+.grayshapevideo #abs {
+position: relative;
+background-color: #e7e5e7;
+border-radius: 10%;
+width: 171px;
+height: 260px;
+top: -69px;
+right: 17px;
+display: inline-block;
+z-index: 1;
+}
+
+/*מלבן אפור - מלח פלפל*/
+.grayshapevideo #triceps {
+position: relative;
+background-color: #e7e5e7;
+border-radius: 10%;
+width: 171px;
+height: 260px;
+top: -74px;
+right: 108px;
+display: inline-block;
+z-index: 1;
+}
+
+/*מלבן אפור - פילאטיס*/
+.grayshapevideo #pilatis {
+position: relative;
+background-color: #e7e5e7;
+border-radius: 10%;
+width: 171px;
+height: 260px;
+top: -79px;
+right: 200px;
+display: inline-block;
+z-index: 1;
+}
+
+/*תמונה hiit על מלבנים אפורים*/
+#imghiit {
+position: absolute;
+border-radius: 100px;
+display: inline-block;
+z-index: 1;
+height: 115px;
+width: 118px;
+}
+
+/*תמונה מדרגה על מלבנים אפורים*/
+#imgstep {
+position: absolute;
+border-radius: 100px;
+display: inline-block;
+z-index: 2;
+height: 115px;
+width: 118px;
+}
+
+/*תמונה אירובי דאנס על מלבנים אפורים*/
+#imgdance {
+position: absolute;
+border-radius: 100px;
+display: inline-block;
+z-index: 2;
+height: 115px;
+width: 118px;
+}
+
+
+/*תמונה קייקבוקס על מלבנים אפורים*/
+#imgkikboks {
+position: absolute;
+border-radius: 100px;
+display: inline-block;
+z-index: 2;
+height: 115px;
+ width: 118px;
+}
+
+/*תמונה יוגה על מלבנים אפורים*/
+#imgyoga {
+position: absolute;
+border-radius: 100px;
+display: inline-block;
+z-index: 2;
+height: 115px;
+width: 118px;
+}
+
+/*תמונה בטן קוביות על מלבנים אפורים*/
+#imgabs {
+position: absolute;
+border-radius: 100px;
+display: inline-block;
+z-index: 2;
+height: 115px;
+width: 118px;
+}
+
+/*תמונה מלח פלפל על מלבנים אפורים*/
+#imgtriceps {
+position: absolute;
+border-radius: 100px;
+display: inline-block;
+z-index: 2;
+height: 115px;
+width: 118px;
+}
+
+/*תמונה פילאטיס על מלבנים אפורים*/
+#imgpilatis {
+position: absolute;
+border-radius: 100px;
+display: inline-block;
+z-index: 2;
+height: 115px;
+width: 118px;
+}
+
+/*מעבר עכבר על התמונות*/
+.circle:hover img {
+opacity: 0.1;
+z-index: 0;
+}
+
+/*עיגול לבן- היט*/
+#hiitwhite {
+position: relative;
+border-radius: 70%;
+top: -579px;
+right: 77px;
+display: inline-block;
+z-index: 2;
+height: 115px;
+width: 118px;
+margin-right: 28px;
+background-color: white;
+opacity: 0.9;
+}
+
+/*עיגול לבן- מדרגה*/
+#stepwhite {
+position: relative;
+border-radius: 100px;
+top: -581px;
+right: 163px;
+display: inline-block;
+z-index: 2;
+height: 115px;
+width: 118px;
+margin-right: 28px;
+background-color: white;
+opacity: 0.9;
+}
+
+/*עיגול לבן אירובי דאנס*/
+#dancewhite {
+position: relative;
+border-radius: 100px;
+top: -590px;
+right: 255px;
+display: inline-block;
+z-index: 2;
+height: 115px;
+width: 118px;
+margin-right: 28px;
+background-color: white;
+opacity: 0.9;
+}
+
+/*עיגול לבן קייקבוקס*/
+#kikbokswhite {
+position: relative;
+border-radius: 100px;
+top: -594px;
+right: 346px;
+display: inline-block;
+z-index: 2;
+height: 115px;
+width: 118px;
+margin-right: 28px;
+background-color: white;
+opacity: 0.9;
+}
+
+/*עיגול לבן- יוגה*/
+#yogawhite {
+position: relative;
+border-radius: 100px;
+top: -265px;
+right: 78px;
+display: inline-block;
+z-index: 2;
+height: 115px;
+width: 118px;
+margin-right: 28px;
+background-color: white;
+opacity: 0.9;
+}
+
+/*עיגול לבן- בטן*/
+#abswhite {
+position: relative;
+border-radius: 100px;
+top: -272px;
+right: 165px;
+display: inline-block;
+z-index: 2;
+height: 115px;
+width: 118px;
+margin-right: 28px;
+background-color: white;
+opacity: 0.9;
+}
+
+/*עיגול לבן- מלח פלפל*/
+#tricepswhite {
+position: relative;
+border-radius: 100px;
+top: -275px;
+right: 248px;
+display: inline-block;
+z-index: 2;
+height: 115px;
+width: 118px;
+margin-right: 28px;
+background-color: white;
+opacity: 0.9;
+}
+
+/*עיגול לבן- פילאטיס*/
+#pilatiswhite {
+position: relative;
+border-radius: 100px;
+top: -284px;
+right: 348px;
+display: inline-block;
+z-index: 2;
+height: 115px;
+width: 118px;
+margin-right: 28px;
+background-color: white;
+opacity: 0.9;
+}
+
+/*עיגול לבן-טקסט- היט*/
+#hiitwhite p {
+font-family: Calibri;
+font-size: 14px;
+color: black;
+position: relative;
+top: 40px;
+right: 17px;
+font-weight: bold;
+}
+
+/*עיגול לבן-טקסט- מדרגה*/
+#stepwhite p {
+font-family: Calibri;
+font-size: 14px;
+color: black;
+position: relative;
+top: 40px;
+right: 20px;
+font-weight: bold;
+}
+
+/*עיגול לבן-טקסט- אירובי דאנס*/
+#dancewhite p {
+font-family: Calibri;
+font-size: 14px;
+color: black;
+position: relative;
+top: 35px;
+right: 25px;
+font-weight: bold;
+}
+
+/*עיגול לבן-טקסט- קייקבוקס*/
+#kikbokswhite p {
+font-family: Calibri;
+font-size: 14px;
+color: black;
+position: relative;
+top: 40px;
+right: 30px;
+font-weight: bold;
+}
+
+/*עיגול לבן-טקסט- יוגה*/
+#yogawhite p {
+font-family: Calibri;
+font-size: 14px;
+color: black;
+position: relative;
+top: 35px;
+right: 25px;
+font-weight: bold;
+}
+
+/*עיגול לבן-טקסט- בטן קוביות*/
+#abswhite p {
+font-family: Calibri;
+font-size: 14px;
+color: black;
+position: relative;
+top: 35px;
+right: 23px;
+font-weight: bold;
+}
+
+/*עיגול לבן-טקסט- מלח פלפל*/
+#tricepswhite p {
+font-family: Calibri;
+font-size: 14px;
+color: black;
+position: relative;
+top: 30px;
+right: 10px;
+font-weight: bold;
+}
+
+/*עיגול לבן-טקסט- פילאטיס*/
+#pilatiswhite p {
+font-family: Calibri;
+font-size: 14px;
+color: black;
+position: relative;
+top: 37px;
+right: 15px;
+font-weight: bold;
+}
+
+/*טקסט-סמי כותרת היט-אימונים על מלבנים אפורים*/
+.grayshapevideo #span1 {
+font-family: Calibri;
+font-size: 18px;
+font-weight: bold;
+color: #2e63a9;
+position: relative;
+top: 150px;
+right: 89px;
+margin-right: -30px;
+padding-right: 8px;
+display: inline-block;
+float: right;
+}
+
+/*טקסט-סמי כותרת מדרגה-אימונים על מלבנים אפורים*/
+.grayshapevideo #span2 {
+font-family: Calibri;
+font-size: 18px;
+font-weight: bold;
+color: #2e63a9;
+position: relative;
+top: 150px;
+right: 89px;
+margin-right: -30px;
+padding-right: 8px;
+display: inline-block;
+float: right;
+}
+/*טקסט-סמי כותרת אירובי דאנס-אימונים על מלבנים אפורים*/
+.grayshapevideo #span3 {
+font-family: Calibri;
+font-size: 18px;
+font-weight: bold;
+color: #2e63a9;
+position: relative;
+top: 150px;
+right: 61px;
+margin-right: -30px;
+padding-right: 8px;
+display: inline-block;
+float: right;
+}
+
+/*טקסט-סמי כותרת קייקבוקס-אימונים על מלבנים אפורים*/
+.grayshapevideo #span4 {
+font-family: Calibri;
+font-size: 18px;
+font-weight: bold;
+color: #2e63a9;
+position: relative;
+top: 150px;
+right: 75px;
+margin-right: -30px;
+padding-right: 8px;
+display: inline-block;
+float: right;
+}
+
+/*טקסט-סמי כותרת יוגה-אימונים על מלבנים אפורים*/
+.grayshapevideo #span5 {
+font-family: Calibri;
+font-size: 18px;
+font-weight: bold;
+color: #2e63a9;
+position: relative;
+top: 150px;
+right: 88px;
+margin-right: -30px;
+padding-right: 8px;
+display: inline-block;
+float: right;
+}
+
+/*טקסט-סמי כותרת בטן קוביות-אימונים על מלבנים אפורים*/
+.grayshapevideo #span6 {
+font-family: Calibri;
+font-size: 18px;
+font-weight: bold;
+color: #2e63a9;
+position: relative;
+top: 150px;
+right: 70px;
+margin-right: -30px;
+padding-right: 8px;
+float: right;
+display: inline-block;
+}
+
+/*טקסט-סמי כותרת מלח פלפל-אימונים על מלבנים אפורים*/
+.grayshapevideo #span7 {
+font-family: Calibri;
+font-size: 18px;
+font-weight: bold;
+color: #2e63a9;
+position: relative;
+top: 150px;
+right: 69px;
+margin-right: -30px;
+padding-right: 8px;
+float: right;
+display: inline-block;
+}
+
+/*טקסט-סמי כותרת פילאטיס-אימונים על מלבנים אפורים*/
+.grayshapevideo #span8 {
+font-family: Calibri;
+font-size: 18px;
+font-weight: bold;
+color: #2e63a9;
+position: relative;
+top: 150px;
+right: 75px;
+margin-right: -30px;
+padding-right: 8px;
+display: inline-block;
+float: right;
+}
+
+/*כפתור אדום - צפייה באימון - היט*/
+.grayshapevideo > #redbuttonhiit {
+position: relative;
+top: -178px;
+right: 223px;
+width: 121px;
+height: 22px;
+z-index: 1;
+display: inline-block;
+background-color: #f74b4b;
+float: right;
+border-radius: 19px;
+}
+
+/*טקסט לכפתור אדום - לצפייה באימון - היט*/
+.grayshapevideo > #redbuttonhiit > a {
+ position: relative;
+top: 3px;
+ right: 130px;
+ width: 234px;
+height: 27px;
+ z-index: 1;
+margin-right: -113px;
+margin-left: 150px;
+color: white;
+font-family: Calibri;
+font-weight: bold;
+text-decoration: none;
+}
+
+/*כפתור אדום אימונים לצפייה באימון -היט- מעבר עכבר*/
+.grayshapevideo > #redbuttonhiit > a:hover {
+text-decoration: underline;
+}
+
+/*ככפתור אדום אימונים לצפייה באימון -היט  אחרי ביקור*/
+.grayshapevideo > #redbuttonhiit > a:visited {
+color: white;
+}
+
+/*כפתור אדום - לצפייה באימון - מדרגה*/
+.grayshapevideo > #redbuttonstep {
+position: relative;
+top: -183px;
+right: 310px;
+width: 121px;
+height: 22px;
+z-index: 2;
+display: inline-block;
+background-color: #f74b4b;
+float: right;
+border-radius: 19px;
+}
+
+/*טקסט לכפתור אדום - לצפייה באימון - מדרגה*/
+.grayshapevideo > #redbuttonstep > a {
+position: relative;
+top: 3px;
+right: 131px;
+width: 234px;
+height: 27px;
+z-index: 1;
+margin-right: -113px;
+margin-left: 150px;
+color: white;
+font-family: Calibri;
+font-weight: bold;
+text-decoration: none;
+}
+
+/*כפתור אדום אימונים לצפייה באימון -מדרגה- מעבר עכבר*/
+.grayshapevideo > #redbuttonstep > a:hover {
+text-decoration: underline;
+}
+
+/*ככפתור אדום אימונים לצפייה באימון -מדרגה  אחרי ביקור*/
+.grayshapevideo > #redbuttonstep > a:visited {
+color: white;
+}
+
+/*כפתור אדום - צפייה באימון - אירובי דאנס*/
+.grayshapevideo > #redbuttondance {
+position: relative;
+top: -189px;
+right: 402px;
+width: 121px;
+height: 22px;
+z-index: 2;
+display: inline-block;
+background-color: #f74b4b;
+float: right;
+border-radius: 19px;
+}
+
+/*/ טקסט לכפתור אדום - לצפייה באימון - אירובי דאנס*/
+.grayshapevideo > #redbuttondance > a {
+position: relative;
+top: 3px;
+right: 131px;
+width: 234px;
+height: 27px;
+z-index: 1;
+margin-right: -113px;
+margin-left: 150px;
+color: white;
+font-family: Calibri;
+font-weight: bold;
+text-decoration: none;
+}
+
+/*כפתור אדום אימונים לצפייה באימון -אירובי דאנס- מעבר עכבר*/
+.grayshapevideo > #redbuttondance > a:hover {
+text-decoration: underline;
+}
+
+/*ככפתור אדום אימונים לצפייה באימון -אירובי דאנס- אחרי ביקור*/
+.grayshapevideo > #redbuttondance > a:visited {
+color: white;
+}
+
+/*כפתור אדום - צפייה באימון - קייקבוקס*/
+.grayshapevideo > #redbuttonkikboks {
+position: relative;
+top: -192px;
+right: 493px;
+width: 121px;
+height: 22px;
+z-index: 2;
+display: inline-block;
+background-color: #f74b4b;
+float: right;
+border-radius: 19px;
+}
+
+/*טקסט לכפתור אדום - לצפייה באימון - קייקבוקס*/
+.grayshapevideo > #redbuttonkikboks > a {
+ position: relative;
+top: 3px;
+right: 132px;
+width: 234px;
+height: 27px;
+z-index: 1;
+margin-right: -113px;
+margin-left: 150px;
+color: white;
+font-family: Calibri;
+font-weight: bold;
+text-decoration: none;
+}
+
+ /*כפתור אדום אימונים לצפייה באימון -קייקבוקס- מעבר עכבר*/
+.grayshapevideo > #redbuttonkikboks > a:hover {
+text-decoration: underline;
+}
+
+/*ככפתור אדום אימונים לצפייה באימון -קייקבוקס  אחרי ביקור*/
+.grayshapevideo > #redbuttonkikboks > a:visited {
+color: white;
+}
+
+/*כפתור אדום - צפייה באימון - יוגה*/
+.grayshapevideo > #redbuttonyoga {
+position: relative;
+top: 139px;
+right: 224px;
+height: 22px;
+z-index: 2;
+display: inline-block;
+background-color: #f74b4b;
+float: right;
+border-radius: 19px;
+}
+
+/*טקסט לכפתור אדום - לצפייה באימון -יוגה*/
+.grayshapevideo > #redbuttonyoga > a {
+position: relative;
+top: 3px;
+right: 130px;
+width: 234px;
+height: 27px;
+z-index: 1;
+margin-right: -113px;
+margin-left: 150px;
+color: white;
+font-family: Calibri;
+font-weight: bold;
+text-decoration: none;
+}
+
+/*כפתור אדום אימונים לצפייה באימון -יוגה- מעבר עכבר*/
+.grayshapevideo > #redbuttonyoga > a:hover {
+text-decoration: underline;
+}
+
+/*ככפתור אדום אימונים לצפייה באימון -יוגה  אחרי ביקור*/
+.grayshapevideo > #redbuttonyoga > a:visited {
+color: white;
+}
+
+/*כפתור אדום - צפייה באימון - בטן*/
+.grayshapevideo > #redbuttonabs {
+position: relative;
+top: 134px;
+right: 312px;
+width: 121px;
+height: 22px;
+z-index: 2;
+display: inline-block;
+background-color: #f74b4b;
+float: right;
+border-radius: 19px;
+}
+
+/*טקסט לכפתור אדום - לצפייה באימון - בטן*/
+.grayshapevideo > #redbuttonabs > a {
+position: relative;
+top: 3px;
+right: 131px;
+width: 234px;
+height: 27px;
+z-index: 1;
+margin-right: -113px;
+margin-left: 150px;
+color: white;
+font-family: Calibri;
+font-weight: bold;
+text-decoration: none;
+}
+
+/*כפתור אדום אימונים לצפייה באימון -בטן- מעבר עכבר*/
+.grayshapetips > #redbuttonabs > a:hover {
+text-decoration: underline;
+}
+
+/*ככפתור אדום אימונים לצפייה באימון -בטן  אחרי ביקור*/
+.grayshapetips > #redbuttonabs > a:visited {
+color: white;
+}
+
+/*כפתור אדום -לצפייה באימון - מלח פלפל*/
+.grayshapevideo > #redbuttontriceps {
+position: relative;
+top: 127px;
+right:398px;
+width: 121px;
+height: 22px;
+z-index: 2;
+display: inline-block;
+background-color: #f74b4b;
+float: right;
+border-radius: 19px;
+}
+
+/*טקסט לכפתור אדום - לצפייה באימון - מלח פלפל*/
+.grayshapevideo > #redbuttontriceps > a {
+ position: relative;
+top: 3px;
+right: 132px;
+width: 234px;
+height: 27px;
+z-index: 1;
+margin-right: -113px;
+margin-left: 150px;
+color: white;
+font-family: Calibri;
+font-weight: bold;
+text-decoration: none;
+}
+
+
+/*כפתור אדום  לצפייה באימון -מלח פלפל- מעבר עכבר*/
+.grayshapevideo > #redbuttontriceps > a:hover {
+text-decoration: underline;
+}
+
+/*כפתור אדום לצפייה באימון -מלח פלפל-  אחרי ביקור*/
+.grayshapevideo > #redbuttontriceps > a:visited {
+color: white;
+}
+/*כפתור אדום - צפייה באימון - פילאטיס*/
+.grayshapevideo > #redbuttonpilatis {
+position: relative;
+top: 121px;
+right: 493px;
+width: 121px;
+height: 22px;
+z-index: 2;
+display: inline-block;
+background-color: #f74b4b;
+float: right;
+border-radius: 19px;
+}
+
+    /*טקסט לכפתור אדום - לצפייה באימון - פילאטיס*/
+.grayshapevideo > #redbuttonpilatis > a {
+position: relative;top: 3px;
+right: 132px;
+width: 234px;
+height: 27px;
+z-index: 1;
+margin-right: -113px;
+margin-left: 150px;
+color: white;
+font-family: Calibri;
+font-weight: bold;
+text-decoration: none;
+}
+
+/*כפתור אדום אימונים לצפייה באימון -פילאטיס- מעבר עכבר*/
+.grayshapevideo > #redbuttonpilatis > a:hover {
+text-decoration: underline;
+}
+
+/*ככפתור אדום אימונים לצפייה באימון -פילאטיס  אחרי ביקור*/
+.grayshapevideo > #redbuttonpilatis > a:visited {
+ color: white;
+}
+

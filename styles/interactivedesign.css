@@ -1,0 +1,27 @@
+﻿/*הגדרה ספציפית לייצוג */
+header {
+height: 300px;
+}
+
+/*גודל הייצוג*/
+iframe {
+width: 1280px;
+height: 720px;
+position: absolute;
+display: block;
+}
+
+/*תחימה לייצוג*/
+#intecactive {
+width: 1280px;
+height: 720px;
+}
+
+/*הגדרה ספציפית לייצוג*/
+.footerblue {
+background-color: #2e63a9;
+height: 213px;
+width: 1280px;
+z-index: 1;
+margin-top: 21px;
+}

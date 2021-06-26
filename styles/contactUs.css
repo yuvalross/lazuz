@@ -1,0 +1,74 @@
+﻿/*גובה ספציפי לעמוד הזה*/
+header {
+    height: 664px;
+    width: 1280px;
+}
+
+
+/*כותרת ראשית - אודות לזוז*/
+h1 {
+color: #2e63a9;
+font-family: Calibri;
+font-size: 28px;
+font-weight: bold;
+text-align: center;
+position: relative;
+top: -415px;
+right: -385px;
+z-index: 2;
+}
+
+/*הנחיה - שדה חובה*/
+span{
+font-family: Calibri;
+font-size: 18px;
+text-align: right;
+font-weight:bold;
+position: relative;
+top: -404px;
+right: 212px;
+}
+
+
+/*מלבן אפור - עיצוב ומיקום*/
+#grayshape {
+position: relative;
+background-color: #E7E5E7;
+border-radius: 10%;
+width: 683px;
+height: 545px;
+top: -332px;
+right: 213px;
+display: inline-block;
+ z-index: 0;
+}
+
+/*טופס- עיצוב ומיקום*/
+form {
+font-family: Calibri;
+font-size: 18px;
+text-align: right;
+position: relative;
+top: 27px;
+right: 103px;
+z-index: 1;
+}
+   
+/*צבע מסגרת לתיבות בטופס*/
+input, fieldset, textarea {
+border: 2px solid #2e63a9;
+}
+
+/*רוחב של תיבת מגדר*/
+fieldset{
+width:200px;
+}
+
+/*מיקום גובה הפוטר בעמוד הספציפי הזה*/
+.footerblue {
+    background-color: #2e63a9;
+    height: 213px;
+    width: 1280px;
+    z-index: 1;
+    margin-top: -213px;
+}

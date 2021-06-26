@@ -1,0 +1,183 @@
+﻿<!DOCTYPE html>
+<html lang="he">
+<head>
+    <meta charset="utf-8" />
+    <title>לזוז - צור קשר</title>
+    <meta name="description" content="אתר לזוז עמוד צור קשר" />
+    <meta name="keywords" content="לזוז, צור קשר, טופס" />
+    <meta name="author" content="לורן אמויאל, רותם שלום ויובל רוס" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.1/build/pure-min.css" integrity="sha384-oAOxQR6DkCoMliIh8yFnu25d7Eq/PHS21PClpwjOTeU2jRSq11vu66rf90/cZr47" crossorigin="anonymous">
+    <link rel="icon" href="images/Favicon.png" />
+
+
+
+    <link href="styles/contactUs.css" rel="stylesheet" />
+    <link href="styles/General-lazoz-Content Page.css" rel="stylesheet" />
+    <link href="styles/footer-general.css" rel="stylesheet" />
+    <link href="styles/contactUs.css" rel="stylesheet" />
+    <!-- JS -->
+    <script src="jScripts/jquery-1.12.0.min.js"></script>
+
+
+</head>
+<body>
+   
+    <div id="container">
+        <main>
+            <article>
+                <header>
+                    <div id="backgroundimg"></div>
+                    <div id="skip">
+                        <a href="#start">דלג לתוכן</a>
+                    </div>
+                    <a id="one" href="index.html"> <img src="images/logo.png" alt="לוגו" /></a>
+
+                    <!--תפריט ניווט-->
+
+                    <nav aria-label="ניוט מרכזי">
+                        <ul>
+                            <li class="dropdown">
+                                <a class="cotert" href="#">כושר <span><img src="images/errow.png" /> </span> </a>
+                                <!--תת תפריט-->
+                                <ul>
+                                    <li class="notActive"><a class="notActive" href="#">  אימוני Live</a></li>
+                                    <li><a href="trainingpage.html"> אימונים</a></li>
+                                    <li><a href="interactivedesign.html"> מפה אנטומית</a></li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a class="cotert" href="#">תזונה <span><img src="images/errow.png" /> </span> </a>
+                                <!--תת תפריט-->
+                                <ul class="notActive">
+                                    <li class="notActive"><a href="#" class="notActive">מתכונים </a></li>
+                                    <li class="notActive"><a href="#" class="notActive">תפריט אישי</a></li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a class="cotert" href="#">בלוג <span><img src="images/errow.png" /> </span></a>
+                                <!--תת תפריט-->
+                                <ul>
+                                    <li class="notActive"><a href="#" class="notActive">מתכונים שלכם</a></li>
+                                    <li class="notActive"><a href="#" class="notActive">לקוחות מספרים</a></li>
+                                    <li><a href="tips.html">טיפים</a></li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <div id="imhere">
+                                    <a class="cotert" href="contactUs.html">צור קשר</a>
+                                </div>
+                            </li>
+                            <li class="dropdown">
+                                <a class="cotert" href="About.html">אודות</a>
+                            </li>
+                        </ul>
+
+                    </nav>
+                    <div class="notActive">
+                        <a><span id="words1">כניסה</span><img id="img1" alt="" src="images/enters.png" /></a> <!--כניסה אייקון-->
+                        <a><span id="words2">הרשמה</span><img id="img2" alt="" src="images/register.png" /></a> <!--הרשמה אייקון-->
+
+                    </div>
+                    <nav role="navigation" id="nav2">
+                        <ol>
+
+                            <li><a href="index.html">  עמוד הבית   </a></li>
+                            <li>צור קשר</li>
+                        </ol>
+                    </nav>
+                </header>
+
+
+                <div id="contectus">
+                    <h1 id="start">צור קשר</h1>
+                    <span>* שדה חובה</span>
+                </div>
+                <div id="grayshape">
+                    <form action="submit.html" role="form">
+                        <label for="privateName">
+                            *שם פרטי <br />
+                            <input type="text" id="privateName" placeholder="שם פרטי" required aria-required="true" name="private name" value=""/><br /><br />
+                        </label>
+
+                        <label for="last name">
+                            *שם משפחה <br />
+                            <input type="text" id="lastName" placeholder="שם משפחה" required aria-required="true" value="" name="last name"/><br /><br />
+                        </label>
+
+                        <label for="email">
+                            *דואר אלקטרוני <br />
+                            <input type="email" id="email" name="email" placeholder="הזן דואר אלקטרוני" required aria-required="true" value="" />
+                        </label>  <br />
+
+                        <br />  <fieldset>
+                            <legend>מגדר:</legend>
+                            <label for="male">
+                                <input type="radio" name="gender" id="male" />זכר
+                            </label>
+                            <label for="female">
+                                <input type="radio" name="gender" id="female" />נקבה
+                            </label>
+                        </fieldset>
+                        <br /> <label for="myTextarea">
+                            רשום את הודעתך: *<br /><textarea id="myTextarea" placeholder="הזן תוכן" value="" rows="5" required aria-required="true" name="myTextArea"></textarea>
+                        </label>
+
+                        <label for="submit">
+                            <br /> <a href="submit.html"><input type="submit" id="sendForm" value="שלח פנייה" name="submit"/></a>
+                        </label>
+                    </form>
+                </div>
+
+
+
+                <footer class="footerblue">
+                    <ul>
+                        <li> <a href="#"><b class="notActive">הרשמה</b> </a> </li>
+                        <br />
+                        <li> <a href="#"><b class="notActive">כניסה</b> </a> </li>
+                    </ul>
+
+
+                    <ul>
+                        <li> <a class="notActive" href="#"> <b>כושר</b></a></li>
+                        <li> <a href="interactivedesign.html">מפה אנטומית</a></li>
+                        <li>  <a class="notActive" href="#"> אימוני Live </a></li>
+                        <li> <a href="trainingpage.html">אימונים</a></li>
+                    </ul>
+
+                    <ul>
+                        <li><a class="notActive" href="#"><b> תזונה</b></a></li>
+                        <li> <a class="notActive" href="#">מתכונים</a></li>
+                        <li> <a class="notActive" href="#">תפריט אישי</a></li>
+                    </ul>
+
+                    <ul>
+                        <li> <a class="notActive" href="#"><b>בלוג</b></a></li>
+                        <li> <a class="notActive" href="#">מתכונים שלכם</a></li>
+                        <li> <a class="notActive" href="#">לקוחות מספרים</a></li>
+                        <li> <a href="tips.html">טיפים </a></li>
+                    </ul>
+
+                    <ul>
+                        <li> <a class="notActive" href="#"> <b> עקבו אחרינו</b></a></li>
+                        <li> <a class="notActive" href="#">Facebook<img src="images/facebook.png" alt="" /></a> </li>
+                        <li> <a class="notActive" href="#">Instagram<img src="images/instagram.png" alt="" /></a></li>
+                        <li> <a class="notActive" href="#">Youtube<img src="images/youtube.png" alt="" /></a></li>
+                    </ul>
+
+                    <ul>
+                        <li> <a class="notActive" href="#"><b> מידע שימושי</b></a></li>
+                        <li> <a href="About.html"> אודות</a></li>
+                        <li> <a href="contactUs.html">צור קשר</a></li>
+                        <li> <a class="notActive" href="#">תקנון האתר</a></li>
+                    </ul>
+                </footer>
+            </article>
+        </main>
+    </div>
+
+</body>
+</html>

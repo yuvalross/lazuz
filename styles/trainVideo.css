@@ -1,0 +1,394 @@
+﻿/*פירורי לחם ספציפי לעמוד אימון היט*/
+#nav2 > ol li {
+margin-top: -4px;
+position: relative;
+padding: 18px;
+list-style: none;
+display: inline-block;
+margin-right: -25px;
+color: white;
+float: right;
+right: -494px;
+}
+
+/*אייקון כניסה - ספציפי לעמוד היט*/
+#img1 {
+position: relative;
+float: right;
+width: 42px;
+height: 35px;
+margin-left: 25px;
+margin-right: 82px;
+right: -36px;
+top: -300px;
+z-index: 3;
+}
+
+/*אייקון הרשמה - ספציפי לעמוד היט*/
+#img2 {
+position: relative;
+float: right;
+width: 40px;
+height: 67px;
+margin-left: 25px;
+margin-right: 82px;
+right: 1042px;
+top: -343px;
+z-index: 3;
+}
+
+/*טקסט כניסה - ספציפי לעמוד היט*/
+#words1 {
+font-family: Calibri;
+color: #ffffff;
+font-size: 18px;
+position: relative;
+float: right;
+width: 40px;
+height: 30px;
+right: 135px;
+top: -300px;
+z-index: 5;
+}
+
+/*טקסט הרשמה - ספציפי לעמוד היט*/
+#words2 {
+font-family: Calibri;
+color: #ffffff;
+font-size: 18px;
+position: relative;
+float: right;
+width: 40px;
+height: 30px;
+right: 41px;
+top: -300px;
+z-index: 3;
+}
+
+/*כותרת ראשית כחולה - אימון לדרך*/
+h1 {
+font-family: Calibri;
+font-size: 24px;
+color: #2e63a9;
+position: relative;
+right: 207px;
+top: -521px;
+z-index: 3;
+}
+
+/*טקסט ראשי קצר על העמוד*/
+#p1 {
+ font-family: Calibri;
+font-size: 14px;
+color: black;
+position: relative;
+top: -500px;
+right: 207px;
+}
+
+/*כותרת משנית - שם האימון*/
+h2 {
+color: #F74B4B;
+font-family: Calibri;
+font-size: 20px;
+position: relative;
+top: -440px;
+right: 213px;
+margin-bottom: 20px;
+}
+
+/*טקסט ראשי קצר על העמוד*/
+#p2 {
+font-family: Calibri;
+font-size: 14px;
+color: black;
+position: relative;
+top: -430px;
+right: 207px;
+}
+
+/*סרטון וידיאו - מיקום וגודל*/
+iframe {
+height:460px;
+width:850px;
+position: relative;
+top: -400px;
+right: 210px;
+}
+
+/*כותרת משנית - הפנייה לעוד אימונים*/
+h3 {
+font-family: Calibri;
+font-size: 24px;
+color: black;
+font-weight: normal;
+position: relative;
+right: 460px;
+top: -341px;
+z-index: 3;
+}
+
+/*גובה הדיב*/
+div .grayshapevideo{
+height:10px;
+}
+
+/*מלבן אפור - מדרגה*/
+.grayshapevideo #step {
+position: relative;
+background-color: #E7E5E7;
+border-radius: 10%;
+width: 171px;
+height: 260px;
+top: -261px;
+right: 213px;
+display: inline-block;
+z-index: 1;
+}
+
+/*מלבן אפור - אריובי דאנס*/
+.grayshapevideo #dance {
+position: relative;
+background-color: #E7E5E7;
+border-radius: 10%;
+width: 171px;
+height: 260px;
+top: -271px;
+right: 300px;
+display: inline-block;
+z-index: 1;
+}
+
+/*מלבן אפור - קייקבוקס*/
+.grayshapevideo #kikboks {
+position: relative;
+background-color: #E7E5E7;
+border-radius: 10%;
+width: 171px;
+height: 260px;
+top: -280px;
+right: 385px;
+display: inline-block;
+z-index: 1;
+}
+
+/*תמונות של אימונים על מלבנים אפורים*/
+.grayshapevideo div > img {
+position: absolute;
+border-radius: 70%;
+top: 12px;
+right: -3px;
+display: inline-block;
+z-index: 2;
+height: 115px;
+width: 118px;
+margin-right: 28px;
+}
+
+/*טקסט-סמי כותרת מדרגה- אימונים- על מלבנים אפורים*/
+.grayshapevideo #span2 {
+font-family: Calibri;
+font-size: 18px;
+font-weight: bold;
+color: #2E63A9;
+position: relative;
+top: 155px;
+right: 64px;
+display: inline-block;
+float: right;
+}
+
+/*טקסט-סמי כותרת אירובי דאנס- אימונים- על מלבנים אפורים*/
+.grayshapevideo #span3 {
+font-family: Calibri;
+font-size: 18px;
+font-weight: bold;
+color: #2E63A9;
+position: relative;
+top: 155px;
+right: 38px;
+display: inline-block;
+float: right;
+}
+
+/*טקסט-סמי כותרת קייקבוקס- אימונים- על מלבנים אפורים*/
+.grayshapevideo #span4 {
+font-family: Calibri;
+font-size: 18px;
+font-weight: bold;
+color: #2E63A9;
+position: relative;
+top: 155px;
+right: 54px;
+display: inline-block;
+float: right;
+}
+
+
+
+/*כפתור אדום - לצפייה באימון - מדרגה*/
+.grayshapevideo > #redbuttonstep {
+position: relative;
+top: -55.5px;
+right: 359px;
+width: 121px;
+height: 22px;
+z-index: 2;
+display: inline-block;
+background-color: #f74b4b;
+float: right;
+border-radius: 19px;
+}
+
+
+
+/*טקסט לכפתור אדום - לצפייה באימון- מדרגה*/
+.grayshapevideo > #redbuttonstep > a {
+position: relative;
+top: 3.5px;
+right: 132px;
+width: 234px;
+height: 27px;
+z-index: 1;
+margin-right: -113px;
+margin-left: 150px;
+color: white;
+font-family: Calibri;
+font-weight: bold;
+text-decoration: none;
+}
+
+
+/*כפתור אדום  לצפייה באימון -מדרגה- מעבר עכבר*/
+.grayshapevideo > #redbuttonstep > a:hover {
+text-decoration: underline;
+}
+
+/*כפתור אדום  לצפייה באימון -מדרגה-  אחרי ביקור*/
+.grayshapevideo > #redbuttonstep > a:visited {
+color: white;
+}
+
+/*כפתור אדום - לצפייה באימון - אירובי דאנס*/
+.grayshapevideo > #redbuttonDance {
+position: relative;
+top: -64.5px;
+right: 445px;
+width: 121px;
+height: 22px;
+z-index: 2;
+display: inline-block;
+background-color: #f74b4b;
+float: right;
+border-radius: 19px;
+}
+
+/*טקסט לכפתור אדום - לצפייה באימון- אירובי דאנס*/
+.grayshapevideo > #redbuttonDance > a {
+position: relative;
+top: 3px;
+right: 132px;
+width: 234px;
+height: 27px;
+z-index: 1;
+margin-right: -113px;
+margin-left: 150px;
+color: white;
+font-family: Calibri;
+font-weight: bold;
+text-decoration: none;
+}
+
+/*כפתור אדום  לצפייה באימון -אירובי דאנס- מעבר עכבר*/
+.grayshapevideo > #redbuttonDance > a:hover {
+text-decoration: underline;
+}
+
+/*כפתור אדום  לצפייה באימון -אירובי דאנס-  אחרי ביקור*/
+.grayshapevideo > #redbuttonDance > a:visited {
+color: white;
+}
+
+/*כפתור אדום - לצפייה באימון - קייקבוקס*/
+.grayshapevideo > #redbuttonKickBOx {
+position: relative;
+top: -75px;
+right: 528px;
+width: 121px;
+height: 22px;
+z-index: 2;
+display: inline-block;
+background-color: #f74b4b;
+float: right;
+border-radius: 19px;
+}
+
+/*טקסט לכפתור אדום - לצפייה באימון - קייקבוקס*/
+.grayshapevideo > #redbuttonKickBOx > a {
+position: relative;
+top: 3px;
+right: 132px;
+ width: 234px;
+height: 27px;
+ z-index: 1;
+margin-right: -113px;
+margin-left: 150px;
+color: white;
+font-family: Calibri;
+font-weight: bold;
+text-decoration: none;
+}
+
+
+/*כפתור אדום  לצפייה באימון -קייקבוקס- מעבר עכבר*/
+.grayshapevideo > #redbuttonKickBOx > a:hover {
+text-decoration: underline;
+}
+ /*כפתור אדום  לצפייה באימון-קייקבוקס-  אחרי ביקור*/
+.grayshapevideo > #redbuttonKickBOx > a:visited {
+color: white;
+}
+
+/*כפתור לכל האימונים*/
+#videos #redbutton {
+position: relative;
+top: -7px;
+right: 546px;
+width: 148px;
+height: 35px;
+border-radius: 40px;
+background-color: #F74B4B;
+z-index: 2;
+}
+
+/*טקסט:לכל האימונים מיקום ועיצוב*/
+#videos div > a {
+position: relative;
+top: -7px;
+right: 13px;
+z-index: 1;
+color: white;
+font-family: Calibri;
+font-size: 24px;
+font-weight: bold;
+text-decoration: none;
+}
+
+/*כפתור אדום עמוד אימונים לכל האימונים - מעבר עכבר*/
+#videos div > a:hover {
+text-decoration: underline;
+}
+
+/*כפתור אדום עמוד אימונים לכל האימונים  -  אחרי ביקור*/
+#videos div > a:visited {
+color: white;
+}
+
+/*ספציפי לעמוד - אימון היט*/
+.footerblue {
+background-color: #2e63a9;
+height: 213px;
+width: 1280px;
+z-index: 1;
+margin-top: 62px;
+}

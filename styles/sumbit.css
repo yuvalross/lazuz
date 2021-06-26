@@ -1,0 +1,58 @@
+﻿
+/*כותרת ראשית - פנייתך התקבלה בהצלחה*/
+h1 {
+color: black;
+font-family: Calibri;
+font-size: 24px;
+position: relative;
+top: -493px;
+right: 173px;
+}
+
+
+/*כפתור לכל האימונים*/
+#redbutton {
+position: relative;
+top: -453px;
+right: 176px;
+width: 132px;
+height: 26px;
+border-radius: 43px;
+background-color: #F74B4B;
+z-index: 2;
+}
+
+/*טקסט:לכל האימונים מיקום ועיצוב*/
+#redbutton > a {
+position: relative;
+top: 3px;
+right: 15px;
+z-index: 1;
+color: white;
+font-family: Calibri;
+font-size: 16px;
+font-weight: bold;
+text-decoration: none;
+}
+
+/*כפתור אדום עמוד אימונים לכל האימונים - מעבר עכבר*/
+ #redbutton > a:hover {
+text-decoration: underline;
+}
+
+/*כפתור אדום עמוד אימונים לכל האימונים  -  אחרי ביקור*/
+#redbutton > a:visited {
+color: white;
+}
+
+/*ספציפי לעמוד המענה -footer*/ /**/
+.footerblue {
+background-color: #2e63a9;
+height: 213px;
+width: 1280px;
+z-index: 1;
+position: absolute;
+bottom: -110px;
+}
+
+

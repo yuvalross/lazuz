@@ -1,0 +1,323 @@
+﻿
+/*גובה התגיות*/
+article {
+height: 229px;
+   
+}
+
+/*גובה התגיות*/
+section {
+height: 1px;
+}
+
+
+/*כותרת ראשית - אודות לזוז*/
+h1 {
+color: #2e63a9;
+font-family: Calibri;
+font-size: 28px;
+font-weight: bold;
+text-align: center;
+position: relative;
+top: -465px;
+right: -377px;
+z-index: 2;
+}
+
+/*תמונה רותם*/
+#rotem {
+border: 5px solid #2e63a9;
+position: relative;
+border-radius: 100px;
+top: -390px;
+right: 336px;
+display: inline-block;
+z-index: 2;
+height: 145px;
+width: 153px;
+}
+
+
+/*תמונה לורן*/
+#lauren {
+border: 5px solid #2e63a9;
+position: relative;
+border-radius: 100px;
+top: -390px;
+right: 403px;
+display: inline-block;
+z-index: 2;
+height: 145px;
+width: 153px;
+}
+
+
+/*תמונה יובל */
+#yuval {
+border: 5px solid #2e63a9;
+position: relative;
+border-radius: 100px;
+top: -390px;
+right: 479px;
+display: inline-block;
+z-index: 2;
+height: 145px;
+width: 153px;
+}
+
+/*מלבן אפור - עיצוב ומיקום - מי אנחנו*/
+#grayshapewhoweare {
+position: relative;
+background-color: #E7E5E7;
+border-radius: 10%;
+width: 637px;
+height: 255px;
+top: -305px;
+right: 330px;
+display: inline-block;
+z-index: 1;
+}
+
+/*מלבן אפור - כותרת - מי אנחנו*/
+h2 {
+font-family: Calibri;
+font-weight: bold;
+font-size: 22px;
+text-align: center;
+position: relative;
+color: #2e63a9 ;
+top:16px;
+}
+
+/*מלבן אפור - פסקה עליונה - מי אנחנו*/
+#grayshapewhoweare > div > p {
+font-family: Calibri;
+font-size: 16px;
+text-align: right;
+position: relative;
+top: 31px;
+right: 61px;
+}
+
+
+/*מלבן אפור - רשימה - מי אנחנו*/
+#grayshapewhoweare ol > li {
+text-decoration-style: inherit;
+font-family: Calibri;
+ font-size: 16px;
+text-align: right;
+position: relative;
+top: 36px;
+right: 35px;
+}
+
+/*מלבן אפור - פסקה תחתונה - מי אנחנו*/
+#grayshapewhoweare div > div > p {
+font-family: Calibri;
+font-size: 16px;
+text-align: right;
+position: relative;
+top: 52px;
+right: 60px;
+}
+
+
+/*מלבן אפור - עיצוב ומיקום - על האתר*/
+#grayshapesaboutweb {
+position: relative;
+background-color: #E7E5E7;
+border-radius: 10%;
+width: 290px;
+height: 246px;
+top: -230px;
+right: 7px;
+display: inline-block;
+z-index: 1;
+}
+
+/*מלבן אפור - כותרת - על האתר*/
+#grayshapesaboutweb > h3 {
+font-family: Calibri;
+font-size: 22px;
+font-weight: bold;
+text-align: center;
+position: relative;
+color: #2e63a9;
+top: 16px;
+}
+
+/*מלבן אפור - פסקה - על האתר*/
+#grayshapesaboutweb p {
+font-family: Calibri;
+font-size: 16px;
+text-align: right;
+position: relative;
+top: 42px;
+right: 18px;
+}
+
+/*על האתר - קישור - עיצוב */
+#grayshapesaboutweb p > a
+{text-decoration:none;
+color:blue;
+}
+
+/*על האתר - קישור במעבר עכבר- עיצוב */
+#grayshapesaboutweb p > a:hover {
+color: blue;
+text-decoration:underline;
+}
+
+/*על האתר - קישור אחרי לחיצה- עיצוב */
+#grayshapesaboutweb p > a:after {
+color: blue;
+text-decoration:none;
+}
+
+/*עמודים שפיתחו עיצוב לקישורים*/
+#grayshapespages ul li > a {
+color: blue;
+text-decoration:none;
+}
+
+/*עמודים שפיתחו עיצוב לקישורים- במעבר עכבר*/
+#grayshapespages ul li > a:hover {
+color: blue;
+text-decoration:underline;
+}
+/*עמודים שפיתחו עיצוב לקישורים- אחרי לחיצה*/
+#grayshapespages ul li > a:after{
+color: blue;
+text-decoration:none;
+}
+
+
+/*מלבן אפור - עיצוב ומיקום - מטרת האתר*/
+#grayshapespurposeweb {
+position: relative;
+background-color: #E7E5E7;
+border-radius: 10%;
+width: 290px;
+height: 246px;
+top: -230px;
+right: 326px;
+display: inline-block;
+z-index: 1;
+}
+
+/*מלבן אפור - כותרת - מטרת האתר*/
+#grayshapespurposeweb > h3 {
+font-family: Calibri;
+font-size: 22px;
+font-weight: bold;
+text-align: center;
+position: relative;
+color: #2e63a9;
+top: 16px;
+}
+
+/*מלבן אפור - פסקה - מטרת האתר*/
+#grayshapespurposeweb div > p {
+font-family: Calibri;
+font-size: 16px;
+text-align: right;
+position: relative;
+top: 42px;
+right: 18px;
+}
+
+
+/*מלבן אפור - עיצוב ומיקום - קהל יעד*/
+#grayshapestargetmarket {
+position: relative;
+background-color: #E7E5E7;
+border-radius: 10%;
+width: 290px;
+height: 246px;
+top: -230px;
+right: 645px;
+display: inline-block;
+z-index: 1;
+}
+
+/*מלבן אפור - כותרת - מטרת האתר*/
+#grayshapestargetmarket > h3 {
+font-family: Calibri;
+font-size: 22px;
+font-weight: bold;
+text-align: center;
+position: relative;
+color: #2e63a9;
+top: 16px;
+}
+
+/*מלבן אפור - פסקה - מטרת האתר*/
+#grayshapestargetmarket div > p {
+font-family: Calibri;
+font-size: 16px;
+text-align: right;
+position: relative;
+top: 42px;
+right: 18px;
+}
+
+/*מלבן אפור - עיצוב ומיקום - העמודים שפותחו*/
+#grayshapespages {
+position: relative;
+background-color: #E7E5E7;
+border-radius: 10%;
+width: 290px;
+height: 246px;
+top: -230px;
+right: 965px;
+display: inline-block;
+z-index: 1;
+}
+
+/*מלבן אפור - כותרת - העמודים שפותחו*/
+#grayshapespages > h3 {
+font-family: Calibri;
+font-size: 22px;
+font-weight: bold;
+text-align: center;
+position: relative;
+color: #2e63a9;
+top: 16px;
+}
+
+/*מלבן אפור - פסקה - העמודים שפותחו*/
+#grayshapespages div > ul li {
+padding:2px;
+font-family: Calibri;
+font-size: 16px;
+text-align: right;
+position: relative;
+top: 42px;
+right: 18px;
+}
+
+
+/* תמונה של HIT*/
+#hit {
+height: 183px;
+width: 200px;
+position: relative;
+top: 53px;
+right: 1019px;
+}
+
+/*קישור לפקולטה לטכנולוגיות למידה*/
+#telem {
+position: relative;
+top: 40px;
+right: 826px;
+z-index: 2;
+color: blue;
+text-decoration: none;
+}
+
+/* מעבר עכבר-קישור לפקולטה לטכנולוגיות למידה*/
+ #telem:hover{
+color:blue;
+text-decoration:underline;
+}

@@ -1,0 +1,85 @@
+﻿/*עיצוב, גודל ומיקום -footer*//**/
+.footerblue {
+background-color: #2e63a9;
+height: 213px;
+width: 1280px;
+z-index: 1;
+margin-top: 287px;
+}
+
+/*footer - רשימה מיקום*/
+.footerblue > ul {
+list-style: none;
+display: inline-block;
+float: right;
+width: 120px;
+height: 20px;
+margin-right: 45px;
+}
+/*footer - רשימה - שורות -מיקום*/
+.footerblue > ul > li {
+display: block;
+position: relative;
+right: 181px;
+top: 36px;
+padding: 11px;
+}
+
+/*footer - רשימה - שורות- קישורים- עיצוב ומיקום*/
+.footerblue > ul > li > a {
+position: relative;
+display: block;
+color: white;
+top: 1px;
+right: -63px;
+text-decoration: none;
+font-size: 18px;
+margin-right: -15px;
+}
+
+ /*footer - רשימה - שורות- קישורים-מיני כותרת- עיצוב ומיקום*/
+.footerblue > ul > li > a > b {
+position: relative;
+ display: block;
+float: right;
+color: white;
+top: -12px;
+right: -14px;
+padding-right: 14px;
+font-size: 18px;
+}
+
+/* מעבר עכבר-footer - רשימה - שורות- קישורים- עיצוב ומיקום*/
+.footerblue > ul > li > a:hover {
+text-decoration: underline;
+}
+
+/* מעבר עכבר-footer - רשימה - שורות- קישורים- מיני כותרת-עיצוב ומיקום*/
+.footerblue > ul > li a > b:hover {
+text-decoration: underline;
+}
+
+/* רשימה - שורות- קישורים- עיצוב ומיקום -אחרי ביקור- footer */
+.footerblue > ul > li > a :visited {
+color: white;
+}
+/* רשימה - שורות- קישורים-מיני כותרת- עיצוב ומיקום -אחרי ביקור- footer */
+.footerblue > ul > li > a > b:visited {
+color: white;
+}
+
+
+/*תמונות - רשתות חברתיות*/
+.footerblue ul li a > img {
+top: 3px;
+right: 8px;
+position: relative;
+height: 18px;
+width: 18px;
+}
+
+/*לא מאופשר במעבר עכבר - הגדרות עיצוב */
+.notActive:hover{
+cursor:not-allowed;
+color:darkgrey;
+}

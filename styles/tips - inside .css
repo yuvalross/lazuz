@@ -1,0 +1,485 @@
+﻿/*הגדרות כלליות כולל תפריט ניווט לעמודי טיפים - כרטיסיות*/
+
+
+/*כיון הכתיבה*/
+body {
+direction: rtl;
+}
+
+/*רוחב קונטיינר*/
+#container {
+width: 1280px;
+margin: 0 auto;
+}
+
+/*מיקום וערכים של header - ספציפית לעמוד טיפים*/
+header {
+height: 760px;
+width: 1280px;
+}
+
+/*רוחב ה header*/
+#tipsHeader {
+height: auto;
+width: 1280px;
+}
+
+/**סימון - בלתי אפשרי*/*/
+.notActive {
+cursor: not-allowed;
+color: #3D5982;
+}
+
+/*לוגו - האתר גודל רוחב ומיקום*/
+img#mylogo {
+position: relative;
+left: 35px;
+bottom: 92px;
+height: 146px;
+width: 300px;
+}
+
+/*ספציפי לעמודי כרטיסיות- אייקון כניסה*/
+#img1 {
+position: relative;
+float: right;
+width: 42px;
+height: 35px;
+margin-left: 25px;
+margin-right: 82px;
+right: 4px;
+top: 44px;
+z-index: 3;
+}
+
+/*ספציפי לעמודי כרטיסיות- אייקון הרשמה*/
+#img2 {
+    position: relative;
+    float: right;
+    width: 40px;
+    height: 67px;
+    margin-left: 25px;
+    margin-right: 82px;
+    right: -91px;
+    top: 35px;
+    z-index: 3;
+}
+
+/* ספציפי לעמודי כרטיסיות-כניסה - מילה*/
+#words1 {
+    font-family: Calibri;
+    color: #ffffff;
+    font-size: 18px;
+    position: relative;
+    float: right;
+    width: 40px;
+    height: 30px;
+    right: 173px;
+    top: 44px;
+    z-index: 5;
+}
+
+/*ספציפי לעמודי כרטיסיות- הרשמה - מילה*/
+#words2 {
+    font-family: Calibri;
+    color: #ffffff;
+    font-size: 18px;
+    position: relative;
+    float: right;
+    width: 40px;
+    height: 30px;
+    right: 81px;
+    top: 44px;
+    z-index: 3;
+}
+
+/*כיון תפריט ניווט ראשי*/
+nav {
+position: relative;
+margin-right: 192px;
+}
+
+/*כיון תפריט ניווט משני*/
+#nav2 {
+position: unset;
+margin-right: 0;
+clear: left;
+margin-top:10px;
+}
+
+
+/** העלמה של תבליטים ומיקום התפריט*/ 
+nav ul {
+position: relative;
+right: -14px;
+top:7px;
+margin: 0;
+padding: 0;
+list-style: none;
+}
+
+/*המיקום של הטקסט של התפריט הראשי  קובייה*/
+.cotert {
+display: inline-block;
+background-color: #FFFFFF;
+width: 121px;
+height: 23px;
+padding: 7px;
+right: -8px;
+font-size: 20px;
+}
+
+.dropdown {
+background-color: unset;
+}
+
+/*המרחק בין כל קובייה*/
+nav ul li {
+display: inline-block;
+float: right;
+padding: 5px;
+margin: 7px;
+position: relative;
+background-color: #FFFFFF;
+border-radius: 10px;
+width: 117px;
+height: 18px;
+right: 6px;
+z-index: 2;
+}
+
+/*סימון קו תחתון- תפריט ראשי - בעמוד נוכחי*/
+#imhere > a {
+text-decoration: underline;
+}
+
+/*/*העיצוב של כל טקסט בקובייה -תפריט ראשי*/
+nav ul li a {
+display: block;
+text-align: center;
+text-decoration: none;
+border-radius: 10px;
+top: 22px;
+right: -15px;
+color: #3D5982;
+z-index: 3;
+}
+
+/*חץ תפריט ראשי*/
+nav ul li a span > img {
+position: relative;
+top: -4px;
+right: 5px;
+}
+
+/*העיצוב של הלינק*/
+nav ul li a:link {
+color: #3D5982;
+position: relative;
+z-index: 5;
+}
+
+
+/*  מרווח בין קוביות תת תפריט*/
+nav ul li ul li {
+margin: -1px;
+border: 1px solid lightgrey;
+width: 120px;
+border-radius: 2px;
+}
+
+/*מיקום קוביות תת תפריט*/
+nav ul li ul {
+display: none;
+right: -16px;
+padding: 15px 5px 5px;
+}
+
+/*מעבר עכבר על התת תפריט*/
+nav > ul > li:hover ul , nav> ul > li:focus ul{
+display: block;
+color: #3D5982;
+text-decoration: underline;
+}
+
+/*רקע כחול לתת תפריט במעבר עכבר*/
+nav > ul > li ul :hover {
+background-color: rgb(204, 204, 204);
+}
+
+/*העיצוב של המעבר עכבר*/
+nav ul li a:hover {
+background-color: rgb(204, 204, 204);
+position: relative;
+z-index: 3;
+text-decoration: underline;
+font-weight: bold;
+}
+
+/*טקסט קוביות של תת תפריט*/
+nav ul li > ul li > a {
+right: 5px;
+padding-right: -10px;
+top: 2px;
+z-index: 3;
+text-align: right;
+font-size: 18px;
+}
+/
+
+/*העלמה של תבליטים*/
+ul {
+margin: 0;
+padding: 0;
+list-style: none;
+position: relative;
+}
+
+
+#backgroundimg {
+    background-image: url('../images/homepageheader (2).jpg');
+    height: 160px;
+    width: 1280px;
+    z-index: 0;
+}
+
+/*מיקום ועיצוב- פירורי לחם - טקסט-*/ 
+#nav2 > ol li {
+position: relative;
+padding: 15px;
+list-style: none;
+display: inline-block;
+margin-right: -29px;
+color: white;
+float: right;
+right: 170px;
+}
+/*/*מיקום ועיצוב- פירורי לחם - טקסט- קישורים */
+ol li > a {
+    color: white;
+}
+
+/*העיצוב של הלינקים לפני - פירורי לחם*/
+#nav2 > ol li a:link {
+color: white;
+z-index: 2;
+text-decoration: none;
+}
+
+/*העיצוב של הלינקים במעבר עכבר - פירורי לחם*/
+#nav2 ol li a:hover {
+color: white;
+position: relative;
+text-decoration: underline;
+}
+
+#nav2 ol li a:active {
+text-decoration: underline;
+position: relative;
+color: white;
+}
+
+/*הוספת אופרטור  - פירורי לחם*/
+#nav2 ol li:after {
+content: ">";
+padding-right: 15px;
+}
+
+/*עצירה של הוספת אופרטר אחרי מילה אחרונה  - פירורי לחם*/
+#nav2 ol li:last-child:after {
+content: " ";
+}
+
+
+/*העיצוב של המלבן של הפירורי לחם*/
+#nav2 > ol {
+background-color: #f74b4b; 
+height: 41.95px; 
+padding-right: -3px; 
+z-index: 0;
+margin-right: 0;
+}
+
+
+/*פירורי לחם - בעמוד הנוכחי - קו תחתון*/
+nav > ol > li:last-child {
+text-decoration: underline;
+}
+
+/*דלג תוכן- ספציפית לעמודי טיפים כרטיסיות*/
+#skip a {
+display: block;
+width: 1px;
+height: 1px;
+overflow: hidden;
+position: absolute;
+margin-top: 120px;
+margin-right: 10px;
+}
+
+/*דלג תוכן - פוקוס במצב לחיצה*/
+#skip a:active, #skip a:focus {
+width: 100px;
+height: 50px;
+overflow: visible;
+font-size: 20pt;
+background-color: white;
+color: black;
+font-family: Calibri;
+}
+
+/*/*כותרת ראשית - עמוד טיפים*/
+h1 {
+font-family: Calibri;
+font-size: 22px;
+font-weight: bold;
+color: #2e63a9;
+position: relative;
+top: -34px;
+z-index: 3;
+}
+
+/* תקציר -עמוד טיפים*/
+p {
+font-family: Calibri;
+font-size: 16px;
+color: black;
+position:relative;
+top:23px;
+}
+
+/*רוחב וגובה section ה  */
+#mytips {
+width: 68%;
+ margin: 0 auto;
+clear: both;
+height:750px;
+}
+
+/*כרטיסיות - צורה ומיקום*/
+.grayshapetips {
+background-color: #E7E5E7;
+border-radius: 10%;
+width: 171px;
+height: 260px;
+z-index: 1;
+float: right;
+margin-left: 46px;
+margin-top: 198px;
+margin-bottom: -108px;
+}
+
+/*תמונות על כרטיסיות - עיצוב גודל ומיקום*/
+.grayshapetips img {
+border-radius: 70%;
+z-index: 2;
+height: 115px;
+width: 118px;
+margin: 26px;
+}
+
+/*כותרת כרטיסיה - עיצוב ומיקום*/
+.grayshapetips span {
+font-family: Calibri;
+font-size: 18px;
+font-weight: bold;
+color: #2E63A9;
+display: block;
+text-align: center;
+}
+
+/*עיצוב לקישור - למידע נוסף */
+.grayshapetips > a.redbutton {
+display: inline-block;
+width: 120px;
+height: 22px;
+z-index: 2;
+background-color: #f74b4b;
+border-radius: 19px;
+color: white;
+font-family: Calibri;
+font-weight: bold;
+text-decoration: none;
+font-size: 14pt;
+text-align: center;
+margin: 21px 25px 0px 25px;
+}
+
+
+/*כפתור אדום טיפים למידע נוסף - מעבר עכבר*/
+.grayshapetips a:hover, .grayshapetips a:focus {
+text-decoration: underline;
+}
+
+/*כפתור אדום טיפים למידע נוסף -  אחרי ביקור*/
+.grayshapetips a:visited {
+    color: white;
+}
+
+/*עיצוב ומיקום מלבן לבן כרטיסיה נפתחת */
+#whiteshape {
+background-color: #FFFFFF;
+border-radius: 10%;
+z-index: 1;
+box-shadow: 0px 0px 0px 5px rgb(0 0 0 / 12%);
+}
+
+/*עיצוב ומיקום של תמונה בכרטיסיה לבנה*/
+#whiteshape img {
+border-radius: 70%;
+z-index: 2;
+height: 76px;
+width: 72px;
+margin: 28px;
+margin: 17px 6px 14px 0px;}
+
+/*עיצוב ומיקום של טקסט - בכרטיסיה לבנה*/
+#whiteshape p {
+font-family: Calibri;
+font-size: 14px;
+color: black;
+text-align: right;
+margin-top: -15px;
+margin-right: 10px;
+}
+
+/*  גודל  של תמונה - חץ*/
+#whiteshape a#arrows #Inversionarrows {
+height: 32px;
+width: 38px;
+}
+
+/*מיקום וגודל - תמונה חץ*/
+#whiteshape a#arrows {
+height: 32px;
+width: 38px;
+margin: 3px;
+float: right;
+}
+
+/*כותרת וטקסט קצר על העמוד - מיקום ורוחב*/
+#headinfopage{
+width:68%;
+margin:0 auto;
+margin-top: 132px;
+margin-bottom: -104px;
+}
+
+/*ספציפי לעמודי כרטיסיות של טיפים*/
+.footerblue {
+background-color: #2e63a9;
+height: 213px;
+width: 1280px;
+z-index: 1;
+margin-top: 150px;
+}
+
+
+/*footer - רשימה - שורות -מיקום*/
+.footerblue > ul > li {
+display: block;
+position: relative;
+right: 59px;
+top: 36px;
+padding: 11px;
+}
